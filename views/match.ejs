@@ -1,0 +1,43 @@
+<% include header %>
+
+    <div id="container">
+        <div id="team-left">
+            <h1 class="team-name"><%= faction1 %></h1>
+            <% data1.forEach(function(data){ %>
+                <div class="player-left">
+                    <div class="player-info-left">
+                        <img class="avatar-left" src= <%= data.avatar %> alt="avatar">
+                        <p class="nickname-left"><%= data.player %></p>
+                        <div class="flag-skill-left">
+                            <img class="flag-left" src="https://cdn-frontend.faceit.com/web/908/src/app/assets/images-compress/flags/<%= data.country %>.png" alt="flag">
+                            <img class="skill-left" src="https://cdn-frontend.faceit.com/web/908/src/app/assets/images-compress/skill-icons/skill_level_<%= data.skill_level %>_md.png" alt="skill level">
+                        </div>
+                    </div>
+                    <div class="player-stats-left">
+                        <p class="elo">ELO: <%= data.elo %></p>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+
+        <div id="team-right">
+            <h1 class="team-name"><%= faction2 %></h1>
+            <% data2.forEach(function(data){ %>
+            <div class="player-right">
+                <div class="player-info-right">
+                    <img class="avatar-right" src= <%= data.avatar %> alt="avatar">
+                    <p class="nickname-right"><%= data.player %></p>
+                    <div class="flag-skill-right">
+                        <img class="flag-right" src="https://cdn-frontend.faceit.com/web/908/src/app/assets/images-compress/flags/<%= data.country %>.png" alt="flag">
+                        <img class="skill-right" src="https://cdn-frontend.faceit.com/web/908/src/app/assets/images-compress/skill-icons/skill_level_<%= data.skill_level %>_md.png" alt="skill level">
+                    </div>
+                </div>
+                <div class="player-stats-right">
+                    <p class="elo">ELO: <%= data.elo %></p>
+                </div>
+            </div>
+            <% }) %>
+        </div>
+    </div>
+
+<% include footer %>

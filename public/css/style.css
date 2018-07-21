@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Chela+One');
+@import url('https://fonts.googleapis.com/css?family=Chonburi');
+@import url('https://fonts.googleapis.com/css?family=Coda+Caption:800');
+
+
+body {
+    margin:0;
+    padding: 0;
+    background: lightgray;
+}
+
+#container {
+    margin: 50px auto;
+    max-width: 90%;
+    background: gray;
+}
+
+/* Left Section */
+
+#team-left {
+    width: 45%;
+    float: left;
+    background: yellow;
+}
+
+.player-left {
+    width: 95%;
+    margin: 4%;
+}
+
+.player-info-left {
+    width: 52%;
+    margin: 2%;
+    float: left;
+    height: 100px;
+    background: darkred;
+}
+
+.player-info-left * {
+    float: left;
+}
+
+.player-stats-left {
+    width: 40%;
+    margin: 2%;
+    float: right;
+    height: 100px;
+    background: red;
+}
+
+.avatar-left {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.nickname-left {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    margin-left: 25px;
+    font-family: "Chela One";
+    font-size: 22px;
+}
+
+.flag-skill-left {
+    float: right;
+    height: 100px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.skill-left {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.flag-left {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+/* Right Section */
+
+#team-right {
+    width: 45%;
+    float: right;
+    background: green;
+}
+
+.player-right {
+    width: 95%;
+    margin: 4%;
+}
+
+.player-info-right {
+    width: 52%;
+    margin: 2%;
+    float: right;
+    height: 100px;
+    background: darkred;
+}
+
+.player-info-right * {
+    float: right;
+}
+
+.player-stats-right {
+    width: 40%;
+    margin: 2%;
+    float: left;
+    height: 100px;
+    background: red;
+}
+
+.avatar-right {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.nickname-right {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    margin-right: 25px;
+    font-family: "Chela One";
+    font-size: 22px;
+}
+
+.flag-skill-right {
+    float: left;
+    height: 100px;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.skill-right {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.flag-right {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.elo{
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-family: "Coda Caption";
+    font-size: 40px;
+}
+
+.team-name {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: "Chonburi";
+    font-size: 1.5rem;
+}

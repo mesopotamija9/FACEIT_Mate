@@ -1,0 +1,26 @@
+{
+  "name": "faceit_mate",
+  "version": "1.0.0",
+  "description": "FACEIT Mate lets you view all stats from teammates in your lobby fast and easy.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mesopotamija9/FACEIT_Mate.git"
+  },
+  "author": "mesopotamija9",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mesopotamija9/FACEIT_Mate/issues"
+  },
+  "homepage": "https://github.com/mesopotamija9/FACEIT_Mate#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "request": "^2.87.0",
+    "upper-case": "^1.1.3"
+  }
+}
